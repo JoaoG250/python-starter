@@ -28,4 +28,4 @@ exclude = ["build/", "dist/", ".venv/", "__pycache__/"]
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "A", "B", "C", "N", "Q", "T"]
-ignore = ["E203", "E701", "T201"]
+ignore = ["E203", "E701"]
