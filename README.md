@@ -1,7 +1,14 @@
 # python-starter
 Python stater project template using uv
 
-### How to reproduce
+### Install
+
+```bash
+pip install uv
+uv sync --all-groups
+```
+
+### How to replicate
 
 1. `uv init`
 1. `uv add --dev ruff mypy`
